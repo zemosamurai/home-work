@@ -4,7 +4,7 @@ import {UserType} from './HW3'
 
 type GreetingContainerPropsType = {
     users: Array<UserType>
-    addUserCallback: (name: string) => void // need to fix any
+    addUserCallback: (name: string) => void
 }
 
 export const pureAddUser = (name: string, setError: (e: string) => void, setName: (e: string) => void, addUserCallback: (name: string) => void) => {

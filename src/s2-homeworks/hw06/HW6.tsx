@@ -19,7 +19,8 @@ const HW6 = () => {
     }
     const restore = () => {
         // делают студенты
-        setValue('')
+        let newValue = localStorage.getItem('hw6-editable-span-value')
+        newValue && setValue(newValue)
     }
 
     return (

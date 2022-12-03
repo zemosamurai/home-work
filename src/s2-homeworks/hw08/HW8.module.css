@@ -1,23 +1,44 @@
 .item {
+    /*display: inline-block;*/
+    /*background-color: #00cc22;*/
 }
 
 .item:last-of-type {
+    border-bottom: none
 }
 
 .users {
+
 }
 
 .buttonsContainer {
+    display: flex;
+    align-self: end;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    width: 660px;
 }
 
 .thead {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    height: 40px;
+    color: #000000;
+
+    background: #E5E5E5;
 }
 
 .nameCol {
 }
 
 .ageCol {
+    display: inline-block;
+    padding-left: 50px ;
 }

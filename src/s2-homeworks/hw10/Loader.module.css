@@ -1,3 +1,10 @@
 .loader {
+    width: 100px;
+    height: 100px;
+    min-width: 200px;
+    min-height: 200px;
+    background-image: url("https://i.gifer.com/origin/a1/a1bb0cc10512df82afd421a77097cb91_w200.gif");
     /*свг и/или анимация*/
 }
+
+

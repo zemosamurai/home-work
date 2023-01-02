@@ -57,10 +57,10 @@ const HW13 = () => {
                     setInfo(e.response.data.info)
                 }
                 if (e.code === "ERR_NETWORK") {
-                    setCode('')
+                    setCode('Error')
                     setImage(errorUnknown)
-                    setText('')
-                    setInfo('')
+                    setText(e.message)
+                    setInfo(e.name)
                 }
                 console.log(e)
 
